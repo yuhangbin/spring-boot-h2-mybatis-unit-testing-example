@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author yuhangbin
- * @date 2022/4/12
+ * @date 2022/4/13
  **/
 @SpringBootApplication
 public class H2Application {

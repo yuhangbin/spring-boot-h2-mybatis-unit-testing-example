@@ -1,5 +1,6 @@
 package com.yu.h2.mapper;
 
+import com.yu.h2.H2Application;
 import com.yu.h2.pojo.CountryPo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -11,7 +12,7 @@ import javax.annotation.Resource;
  * @author yuhangbin
  * @date 2022/4/12
  **/
-@SpringBootTest
+@SpringBootTest(classes = H2Application.class)
 public class CountryMapperTest {
 
 	@Resource
